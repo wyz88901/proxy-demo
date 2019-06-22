@@ -30,11 +30,6 @@
       <version>2.5.6</version>
     </dependency>
     <dependency>
-      <groupId>org.codehaus.groovy</groupId>
-      <artifactId>groovy-all</artifactId>
-      <version>3.0.0-alpha-1</version>
-    </dependency>
-    <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
       <version>23.0</version>
@@ -43,7 +38,6 @@
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.16.16</version>
-      <scope>provided</scope>
     </dependency>
  
     <dependency>
@@ -59,12 +53,11 @@
     </dependency>
 
     <dependency>
-      <groupId>cglib</groupId>
-      <artifactId>cglib-nodep</artifactId>
-      <version>3.2.7</version>
-      <scope>test</scope>
+        <groupId>cglib</groupId>
+        <artifactId>cglib-nodep</artifactId>
+        <version>3.2.7</version>
     </dependency>
-      
+
 
   </dependencies>
 
